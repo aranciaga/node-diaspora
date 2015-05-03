@@ -3,9 +3,9 @@ NodeJS wrapper for Diaspora v1.0 API
 
 ## Installation
 
-	To install node-diaspora, you can do it using NPM
+To install node-diaspora, you can do it using NPM
 
-		$ npm install node-diaspora
+	$ npm install node-diaspora
 
 ## Examples
 

@@ -1,0 +1,19 @@
+{
+  "name": "node-diaspora",
+  "version": "0.0.1",
+  "description": "NodeJS wrapper for the Diaspora API",
+  "main": "./lib/node-diaspora.js",
+  "keywords": [
+    "diaspora",
+    "api",
+    "wrapper"
+  ],
+  "author": "Martin Aranciaga",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rainbowintheshell/node-diaspora/issues"
+  }
+  "dependencies": {
+    "request": "^2.55.0"
+  }
+}

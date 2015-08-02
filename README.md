@@ -44,9 +44,19 @@ Replace :aspect with a aspect of Diaspora: Example: Work, public, all_aspects
 
 ```
 diasp.postStatusMessage('Testing this new library', ':aspect', function(err, res){
-	
+
 });
 ```
+
+You can also post an image with your status message.
+Replace :image with the image file path.
+
+```
+diasp.postStatusMessage('Testing this new library', ':aspect', ':image', function(err, res){
+
+});
+```
+
 
 # Get Activity
 

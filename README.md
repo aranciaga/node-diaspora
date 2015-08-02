@@ -110,5 +110,5 @@ diasp.delete('/posts/:postid', function(call){
 ## Bug reports
 ---
 
-	* https://github.com/rainbowintheshell/node-diaspora/issues
-	* rainbowtupperware at openmailbox dot org
+  * https://github.com/rainbowintheshell/node-diaspora/issues
+  * rainbowtupperware at openmailbox dot org

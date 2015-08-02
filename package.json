@@ -1,6 +1,6 @@
 {
   "name": "node-diaspora",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "NodeJS wrapper for the Diaspora API",
   "main": "./lib/node-diaspora.js",
   "keywords": [

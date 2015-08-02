@@ -5,7 +5,7 @@ NodeJS wrapper for Diaspora v1.0 API
 
 To install node-diaspora, you can do it using NPM
 
-  $ npm install node-diaspora
+	$ npm install node-diaspora
 
 ## Examples
 
@@ -17,14 +17,14 @@ var Diaspora = require('node-diaspora');
 
 
 var diasp = new Diaspora({
-  user    : 'USER',
-  password: 'PASSWORD',
-  pod     : 'https://examplepod.com'
+	user    : 'USER',
+	password: 'PASSWORD',
+	pod     : 'https://examplepod.com'
 });
 
 diasp.connect(function(err, suc){
 
-  // CODE HERE
+	// CODE HERE
 
 
 });
@@ -35,7 +35,7 @@ diasp.connect(function(err, suc){
 
 ```
 diasp.get('/stream', function(call){
-  console.log(call);
+	console.log(call);
 });
 ```
 
@@ -62,7 +62,7 @@ diasp.postStatusMessage('Testing this new library', ':aspect', ':image', functio
 
 ```
 diasp.get('/activity', function(call){
-  console.log(call);
+	console.log(call);
 });
 ```
 
@@ -70,7 +70,7 @@ diasp.get('/activity', function(call){
 
 ```
 diasp.get('/people/:profileid/photos', function(call){
-  console.log(call);
+	console.log(call);
 });
 ```
 
@@ -78,7 +78,7 @@ diasp.get('/people/:profileid/photos', function(call){
 
 ```
 diasp.get('/contacts', function(call){
-  console.log(call);
+	console.log(call);
 });
 ```
 
@@ -86,7 +86,7 @@ diasp.get('/contacts', function(call){
 
 ```
 diasp.get('/posts/:postid', function(call){
-  console.log(call);
+	console.log(call);
 });
 ```
 
@@ -94,7 +94,7 @@ diasp.get('/posts/:postid', function(call){
 
 ```
 diasp.get('/tags/:tag', function(call){
-  console.log(call);
+	console.log(call);
 });
 ```
 
@@ -103,12 +103,12 @@ diasp.get('/tags/:tag', function(call){
 
 ```
 diasp.delete('/posts/:postid', function(call){
-  console.log(call);
+	console.log(call);
 });
 ```
 
 ## Bug reports
 ---
 
-  * https://github.com/rainbowintheshell/node-diaspora/issues
-  * rainbowtupperware at openmailbox dot org
+	* https://github.com/rainbowintheshell/node-diaspora/issues
+	* rainbowtupperware at openmailbox dot org
